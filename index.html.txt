@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #111;
+            color: white;
+        }
+
+        header {
+            background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00c6ff;
+        }
+
+        .hero {
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background-color: #00c6ff;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #00a2cc;
+        }
+
+        footer {
+            background-color: #222;
+            text-align: center;
+            padding: 15px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h2>My Brand</h2>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Welcome to My Website</h1>
+    <p>Build something powerful and unstoppable.</p>
+    <a href="#" class="btn">Get Started</a>
+</section>
+
+<footer>
+    <p>© 2026 My Website | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
